@@ -1,13 +1,14 @@
 
 *{
     padding: 0;
+    margin: 0;
   
    
 
 }
 
 body{
-    background-color: #084e39;
+    background-color: #128764;
     height: 100vh
     
 }
@@ -20,6 +21,7 @@ body{
     height:auto;
     background-size: auto;
     opacity: .7;
+    
 
 }
 
@@ -33,6 +35,8 @@ section{
     color: azure;
    font-size: 25px;
    font-family: "Pixelify Sans";
+   letter-spacing: 10px;
+  
    
 
 }
@@ -45,16 +49,20 @@ input{
     padding: 7px;
     opacity: .7;
     font-family: Arial, Helvetica, sans-serif;
+   border-color: #000000;
+    
 
     
 }
 
 button{
    
-    border-radius: 9px;
+    border-radius: 30px;
+    width: 100px;
     height: 35px;
-    background-color: #F29F05;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffb833;
+    margin: auto;
+   
     
 
 }
