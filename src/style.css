@@ -8,22 +8,12 @@
 }
 
 body{
-    background-color: #128764;
+    background-color: #dddddd;
     height: 100vh
     
-}
-
-.img{
-    width: 100%;
-    position: absolute;
-    height: auto;
-    z-index: -1;
-    height:auto;
-    background-size: auto;
-    opacity: .5;
     
-
 }
+
 
 section{
     margin: auto;
@@ -31,8 +21,8 @@ section{
    flex-direction: column;
     max-width: 300px;
     max-height: 700px;
-    gap: 15px;
-    color: azure;
+    gap: 13px;
+    color: rgb(0, 0, 0);
    font-size: 25px;
    font-family: "Pixelify Sans";
    letter-spacing: 10px;
@@ -51,8 +41,6 @@ input{
     font-family: Arial, Helvetica, sans-serif;
    border-color: #000000;
     
-
-    
 }
 
 button{
@@ -63,8 +51,6 @@ button{
     background-color: #ffb833;
     margin: auto;
    
-    
-
 }
 
 h1{
@@ -79,7 +65,7 @@ h1{
 
 }
 h2{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     color: #000000 ;
     margin: auto;
 }
@@ -92,4 +78,11 @@ h2{
     letter-spacing: 0;
     border-radius: 12px;
     
+}
+
+footer h4{
+    font-size: 18px;
+    margin: auto;
+    padding: 13px;
+    background-color: #ffb833;
 }
