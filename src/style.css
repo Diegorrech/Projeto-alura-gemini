@@ -82,7 +82,12 @@ h2{
 
 footer h4{
     font-size: 18px;
-    margin: auto;
     padding: 13px;
     background-color: #ffb833;
+}
+
+footer{
+    
+   text-align: center;
+ 
 }
